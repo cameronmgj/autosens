@@ -1,5 +1,7 @@
+import utils
 # check if there are new games in the list from steam
 def checkNewGames():
+    utils.getSteamGames()
     pass
 
 # calculate the sensitivity for a new game based on the stored sensitivity
@@ -21,3 +23,6 @@ def steamNotFound():
 
 def main():
     pass
+
+
+checkNewGames()
