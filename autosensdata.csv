@@ -1,6 +1,5 @@
-steam install path
-global autosens sensitivity
-destiny,destiny autosens multiplier
-fortnite,fortnite autosens multiplier
-valorant,valorant autosens multiplier
-apex,apex autosens multiplier
+destiny app id,destiny,destiny autosens multiplier,destiny filepath
+fortnite app id,fortnite,fortnite autosens multiplier,fortnite filepath
+228980,fallout,4,C:\Program Files (x86)\Steam\steamapps\common\Fallout\fallout.cfg
+valorant app id,valorant,valorant autosens multiplier,valorant filepath
+apex app id,apex,apex autosens multiplier,apex filepath

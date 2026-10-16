@@ -1,7 +1,6 @@
 import utils
 # check if there are new games in the list from steam
 def checkNewGames():
-    utils.getSteamGames()
     pass
 
 # calculate the sensitivity for a new game based on the stored sensitivity
@@ -25,4 +24,20 @@ def main():
     pass
 
 
-checkNewGames()
+steamGamesList = utils.getSteamGames()
+
+print(steamGamesList)
+
+falloutId = "228980"
+
+falloutFilePath = utils.getFilePathById(falloutId)
+
+print(falloutFilePath)
+
+falloutName = utils.getGameTitleById(falloutId)
+
+print(falloutName)
+
+falloutMultiplier = utils.getMultiplierById(falloutId)
+
+print(falloutMultiplier)
